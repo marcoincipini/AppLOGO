@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome" />
+
+    <EditText
+        android:id="@+id/editTextSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cognome"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Età"
+        android:inputType="number"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sesso"
+        android:layout_marginTop="8dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxPrivacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accetta i termini e condizioni per la privacy"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salva"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

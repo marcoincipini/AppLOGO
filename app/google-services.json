@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "360957289941",
+    "project_id": "applogodavide",
+    "storage_bucket": "applogodavide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360957289941:android:78b92aff5b67ae831a495c",
+        "android_client_info": {
+          "package_name": "com.example.prova_applogo_davide"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiu1aAJbYGNDzr_Kdx-TiQFqKoDpisGLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
